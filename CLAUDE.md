@@ -38,7 +38,7 @@ bezahlten Minuten. Ziel: alles können, was die App kann, bei einem Bruchteil de
    gekürzt wurde. Nachgeladene Inhalte (Bilder, Video) zählen nicht, aber auch dort die sparsamste Variante bei voller Qualität.
 8. **Keine Tests im Repo** (Daniel, 25.10.2026). Geprüft wird von außen (Prüfweg). `tools/wache.mjs` ist kein Test, sondern
    ein Regelwächter am Quelltext (Punkte 1 bis 7); `tools/wache-probe.mjs` spielt ihm eingebaute Verstöße vor (Selbstprobe, prüft keine App).
-9. **Daten** stammen nur aus dem öffentlichen Repo `danielzaiser91/anime-kalender-de` (`public/data`, `data/kennungen.json`), nie von
+9. **Daten** stammen nur aus dem öffentlichen Repo `derNamenloseDaniel/anime-kalender-de` (`public/data`, `data/kennungen.json`), nie von
    Hand und nie ins Git dieses Repos. Datenfehler dort beheben, nicht hier. Daten werden verdichtet (`tools/verdichten.mjs`) und nur
    bei neuem Stand als Pages-Artefakt veröffentlicht.
 10. **Inhalt wie die Hauptseite:** Synchro ist nicht Untertitel; nichts behaupten ohne Beleg; Geschätztes mit "≈" kennzeichnen;
